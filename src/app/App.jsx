@@ -1,7 +1,10 @@
 import './App.css'
+import VBmarHeader from './layout/vbmar_header/vbmar_header';
 
 function App() {
-  return <h1>Hello Wolrd</h1>;
+  return (
+    <VBmarHeader></VBmarHeader>
+  )
 }
 
 export default App
