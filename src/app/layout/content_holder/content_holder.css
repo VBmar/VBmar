@@ -1,0 +1,15 @@
+.content_holder {
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+    height: 120vh;
+}
+
+.content {
+    position: relative;
+}
+
+.content img {
+    position: absolute;
+    top: 20%;
+    z-index: 3;
+}
