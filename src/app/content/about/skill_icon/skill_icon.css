@@ -1,7 +1,6 @@
 .skill_icon {
     height: 120px;
     width: 120px;
-    background-color: #EEEEEE;
     display: grid;
     grid-template-rows: 90px 30px;
     grid-template-columns: 1fr;

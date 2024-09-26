@@ -1,11 +1,20 @@
 import './App.css'
+import { useSelector } from 'react-redux';
 //Layout
 import ContentHolder from './layout/content_holder/content_holder';
 import VBmarHeader from './layout/vbmar_header/vbmar_header';
 //Content
 import AboutSection from './content/about/about';
+import { useEffect } from 'react';
 
 function App() {
+
+  const Theme = useSelector((state) => state.Theme.theme);
+
+  useEffect(() => {
+    document.body.style.backgroundColor = Theme.main_color;
+  })
+
   return (
     <>
         <VBmarHeader></VBmarHeader>

@@ -1,18 +1,22 @@
 import "./about.css";
 import SkillIcon from "./skill_icon/skill_icon";
+import { useSelector } from 'react-redux';
 
 function AboutSection() {
+
+    const Theme = useSelector((state) => state.Theme.theme);
+
     return (
         <div id="about_section_container">
-            <h1>About</h1>
+            <h1 style={{color : Theme.reverse_main_color}} >About</h1>
             <div>
-                <h2>About Creator</h2>
-                <div id="about_creator_text">
-                    <p>"I have no Idea what the hell I should write here"</p>
+                <h2 style={{color : Theme.reverse_main_color}} >About Creator</h2>
+                <div id="about_creator_text" style={{backgroundColor : Theme.surface_color}} >
+                    <p style={{color : Theme.reverse_main_color}} >"I have no Idea what the hell I should write here"</p>
                 </div>
             </div>
             <div id="skills_container">
-                <h2>Skills</h2>
+                <h2 style={{color : Theme.reverse_main_color}} >Skills</h2>
                 <div id="skills">
                     <SkillIcon data={Skills.HTML}></SkillIcon>
                     <SkillIcon data={Skills.CSS}></SkillIcon>
