@@ -1,0 +1,22 @@
+#theme_button_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#theme_button_container button {
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#theme_button_container button img {
+
+}

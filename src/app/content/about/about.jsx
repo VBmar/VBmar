@@ -28,27 +28,27 @@ function AboutSection() {
 
 const Skills = {
     HTML : {
-        icon : "/public/skills/html.svg",
+        icon : "/skills/html.svg",
         name : "HTML5"
     },
     CSS : {
-        icon : "/public/skills/css.svg",
+        icon : "/skills/css.svg",
         name : "CSS3"
     },
     JS : {
-        icon : "/public/skills/javascript.svg",
+        icon : "/skills/javascript.svg",
         name : "Javascript"
     },
     TS : {
-        icon : "/public/skills/typescript.svg",
+        icon : "/skills/typescript.svg",
         name : "Typescript"
     },
     React : {
-        icon : "/public/skills/react.svg",
+        icon : "/skills/react.svg",
         name : "React"
     },
     Node : {
-        icon : "/public/skills/node_js.svg",
+        icon : "/skills/node_js.svg",
         name : "Node js"
     },
 }
