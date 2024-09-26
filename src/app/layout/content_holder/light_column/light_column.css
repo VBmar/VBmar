@@ -1,13 +1,11 @@
 .light_column {
     position: relative;
-    top: 80px;
 }
 
 .light_column .color_column {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: aqua;
 }
 
 .light_column .white_column {

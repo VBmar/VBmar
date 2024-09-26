@@ -1,0 +1,41 @@
+#about_section_container {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    justify-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+#about_section_container div h2 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#about_creator_text {
+    background-color: #EEEEEE;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#about_creator_text p {
+    font-size: 20px;
+}
+
+#skills_container {
+    width: 100%;
+    height: fit-content;
+}
+
+#skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    justify-items: center;
+    width: 80%;
+    margin: auto;
+
+}

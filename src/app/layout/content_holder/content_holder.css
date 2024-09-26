@@ -1,11 +1,15 @@
 .content_holder {
     display: grid;
-    grid-template-columns: 5% 1fr 5%;
+    grid-template-columns: 10% 1fr 10%;
     height: 120vh;
+    position: relative;
+    top: 80px;
 }
 
 .content {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .content img {
